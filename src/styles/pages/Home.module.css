@@ -1,9 +1,9 @@
 .container {
   min-height: 100vh;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .main {
@@ -11,15 +11,19 @@
   width: 100%;
   flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .body{
+  padding: 1rem;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content:center;
 }
 
 .footer {
@@ -31,14 +35,43 @@
   align-items: center;
 }
 
-
-.textBoasVindas h1{
-  font-size: 6rem;
+.textBoasVindas h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}.textBoasVindas h4 {
+  font-size: 3rem;
   font-weight: bold;
   display: flex;
   justify-content: center;
   text-align: center;
 }
+
+.card{
+  width: 65%;
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  justify-content: space-between;
+  background-color: var(--white);
+}.card p{
+  font-size: 1.2rem;
+  color: var(--title);
+}.card b{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--footer);
+}
+.imagem{
+  margin: 2%;
+  min-width: 100px;
+  width: 30%;
+  border-radius: 50%;
+}
+
+
 
 .history{
   background-color: var(--title);
@@ -46,9 +79,16 @@
   justify-content: center;
   justify-items: center;
   text-align:justify;
-  padding: 4.5rem;
-  margin-top: 60px;
   width: 60%;
 }.history p{
   font-size: 20px;
+}
+
+.marcador{
+  position: absolute;
+  top: 80px;
+  transform: translateX(-60%);
+  background-color: white;
+  height: 30px;
+  width: 10px;
 }
