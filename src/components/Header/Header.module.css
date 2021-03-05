@@ -27,10 +27,12 @@
 }
 
 .nav_links li a:hover {
+  width: 100px;
   color: var(--title);
   text-align: center;
   background-color: var(--white);
-  border-radius: 30px;
+  border-radius: 50px;
+  padding: 10px;
 }
 
 
