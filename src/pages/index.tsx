@@ -28,10 +28,10 @@ export default function Home() {
             <div>
               <p>
                 Olá meu nome é <b>João Antônio</b>, tenho 21 anos de idade,  sou programador
-                <b> FULL STACK</b> iniciante mas já possuo bastante projetos postados
+                <b> FULL STACK</b> iniciante mas já possuo vários projetos postados
                 no github, eu amo codificar e amo ainda mais o javascript, pois ele foi
-                o meu primeiro ponto que eu fiquei agarrado, mas depois de estudar e estudar,
-                vi o quanto ele é poderoso para criação de APIs, sites, aplicativos, etc.
+                nessa linguagem que eu tive algumas dúvidas, dúvidas essas que me fizeram
+                a estudar cada vez mais e mais ele, até que virasse minha paixão.
                 </p>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-
+          <p>Copyright &copy;João Antônio 2021</p>
       </footer>
     </div>
   )
